@@ -1,0 +1,100 @@
+.privacy-body {
+  background: #151515;
+}
+
+.privacy-body .header {
+  background-color: #151612;
+  background-image: none;
+
+  @include media(desktop) {
+  }
+}
+
+.policy-section {
+  padding-top: 76px;
+  padding-bottom: 32px;
+
+  @include media(desktop) {
+    padding-top: 122px;
+    padding-bottom: 90px;
+  }
+}
+
+.policy-main-title {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    font-size: 24px;
+    margin-bottom: 56px;
+  }
+}
+
+.policy-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 18px;
+
+  @include media(desktop) {
+  }
+}
+
+.policy-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 18px;
+
+  @include media(desktop) {
+  }
+}
+
+.policy-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+
+  &:not(:last-child) {
+    margin-bottom: 18px;
+  }
+
+  @include media(desktop) {
+  }
+}
+
+.policy-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.policy-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 18px;
+  }
+
+  @include media(desktop) {
+  }
+}
+
+.policy-span {
+  text-decoration: underline;
+}
+
+.policy-link {
+  text-decoration: underline;
+  word-wrap: break-word;
+}
