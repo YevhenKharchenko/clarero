@@ -1,6 +1,5 @@
 .cookie-banner-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/banner/banner-bg-mob.png);
+  background-image: url(../img/banner/banner-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: auto;
@@ -17,10 +16,8 @@
   display: none;
 
   @include media(desktop) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../img/banner/banner-bg-desk.png);
+    background-image: url(../img/banner/banner-bg-desk.jpg);
     background-size: cover;
-
     max-width: 1440px;
   }
 }
@@ -42,11 +39,7 @@
   margin-bottom: 50px;
 
   @include media(desktop) {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
     font-size: 20px;
-    text-align: center;
-    color: #fff;
     max-width: max-content;
     margin-bottom: 39px;
   }
@@ -66,7 +59,8 @@
 }
 
 .cookie-decline-btn {
-  border: 3px solid #ff6a00;
+  box-shadow: 2px 0 10px 0 #00f102;
+  border: 1px solid #0f0;
   border-radius: 12px;
   padding: 16px 32px;
   font-family: 'Roboto', sans-serif;
@@ -85,7 +79,9 @@
 }
 
 .cookie-accept-btn {
-  background: #ff6a00;
+  box-shadow: 2px 0 10px 0 #00f102;
+  background: rgba(0, 255, 0, 0.5);
+  border: 1px solid #0f0;
   border-radius: 12px;
   padding: 16px 32px;
   font-family: 'Roboto', sans-serif;

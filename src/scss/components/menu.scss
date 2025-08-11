@@ -1,7 +1,8 @@
 .context-menu {
   display: none;
-  background: #151612;
-  border-bottom: 3px solid #ff6a00;
+  box-shadow: 0 4px 4px 0 rgba(255, 255, 255, 0.25);
+  background: #011415;
+  border-bottom: 1px solid rgba(0, 255, 0, 0.5);
   border-radius: 0 0 20px 20px;
   padding: 36px 10px 64px 10px;
   max-width: 375px;
@@ -34,17 +35,17 @@
 
 .context-list-link {
   padding: 8px 24px;
-  border: 1px solid #887159;
+  border: 1px solid #464646;
   border-radius: 12px;
   font-family: 'Roboto Mono', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   color: #fff;
   transition: all 0.3s ease-in-out;
 
   &:active {
     box-shadow: 0 4px 7px 0 rgba(255, 255, 255, 0.1);
-    background: rgba(255, 106, 0, 0.5);
+    background: rgba(0, 255, 0, 0.2);
   }
 }
 
