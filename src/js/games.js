@@ -24,7 +24,7 @@ gamesSwiper = new Swiper('.games-swiper-container', {
   breakpoints: {
     1440: {
       spaceBetween: 22,
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
   },
   on: {
