@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clarero Games – Pioneering Interactive Sci-Fi Worlds</title>
+    <meta
+      name="description"
+      content="Clarero Games creates immersive sci-fi action-adventure games with cutting-edge mechanics and dynamic storytelling. Explore futuristic worlds and make your mark on the galaxy."
+    />
+    <meta
+      name="keywords"
+      content="game development, sci-fi games, action games, open-world games, Clarero Games, futuristic games, multiplayer games, interactive experiences"
+    />
+    <meta name="author" content="Clarero Games Team" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://clarero.space" />
+    <link rel="icon" type="image/png" href="/clarero/favicon.png" />
+    
+    <script type="module" crossorigin src="/clarero/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/clarero/assets/vendor-74664e07.js">
+    <link rel="stylesheet" href="/clarero/assets/vendor-fef9b9da.css">
+    <link rel="stylesheet" href="/clarero/assets/styles-723dbf28.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <a class="header-logo-link" href="./index.html">Clarero</a>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#home">Hero</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#about">About</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#games">Games</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#technology">Technology</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#process"
+            >Development Process</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#testimonials"
+            >Testimonials</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#partners">Partners</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#faq">FAQ</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#contact">Contact Us</a>
+        </li>
+      </ul>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="42" height="42">
+          <use href="/clarero/assets/sprite-bab1439f.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="42" height="42">
+          <use href="/clarero/assets/sprite-bab1439f.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-bg-wrapper">
+    <div class="container hero-container">
+      <h1 class="hero-title">Experience the Future of Gaming with Clarero</h1>
+      <p class="hero-text">
+        Welcome to Clarero, where the future of gaming is now. Dive into worlds
+        that blend cutting-edge technology with immersive, sci-fi adventures.
+        Our games push the boundaries of gameplay and storytelling, offering
+        players the opportunity to explore futuristic environments, engage in
+        strategic battles, and shape the course of the galaxy.
+      </p>
+      <p class="hero-cta-text">Join us. Become part of the future.</p>
+      <a href="#contact" class="hero-link">Discover Our Games</a>
+    </div>
+  </div>
+</section>
+
+      <section class="about-section section" id="about">
+  <div class="about-section-wrapper">
+    <div class="container about-container">
+      <h2 class="about-title section-title">Who We Are</h2>
+      <div class="about-top-text-wrapper">
+        <p class="about-top-text">
+          At Clarero, we are game creators driven by a passion for innovation,
+          exploration, and technology.
+        </p>
+        <p class="about-top-text">
+          Our team is made up of industry veterans, creative designers, and
+          cutting-edge technologists who specialize in building vast, futuristic
+          worlds.
+        </p>
+        <p class="about-top-text">
+          Our vision is simple: to create games that feel like they belong in
+          the future, where players can explore unknown galaxies, engage in
+          strategic warfare, and immerse themselves in groundbreaking
+          technological systems.
+        </p>
+      </div>
+      <p class="about-subtitle">We focus on:</p>
+      <ul class="about-list">
+        <li class="about-slide">
+          <img
+            class="about-img"
+            src="data:image/png;base64,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"
+            alt="Multiplayer"
+            width="68"
+            height="54"
+            loading="lazy"
+          />
+          <p class="about-slide-title">MULTIPLAYER IMPACT</p>
+          <p class="about-slide-text">
+            Multiplayer dynamics where every player’s action matters.
+          </p>
+        </li>
+        <li class="about-slide">
+          <img
+            class="about-img"
+            src="data:image/png;base64,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"
+            alt="Worlds"
+            width="68"
+            height="54"
+            loading="lazy"
+          />
+          <p class="about-slide-title">IMMERSIVE SCI-FI WORLDS</p>
+          <p class="about-slide-text">
+            Sci-fi environments that feel alive and immersive
+          </p>
+        </li>
+        <li class="about-slide">
+          <img
+            class="about-img"
+            src="data:image/png;base64,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"
+            alt="Mechanics"
+            width="50"
+            height="54"
+            loading="lazy"
+          />
+          <p class="about-slide-title"> SMART GAME MECHANICS</p>
+          <p class="about-slide-text">
+            Game mechanics that challenge players to think critically, adapt,
+            and evolve.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="games-section section" id="games">
+  <div class="games-section-wrapper">
+    <div class="container games-container">
+      <h2 class="games-title section-title">Explore Our Futuristic Worlds</h2>
+      <p class="games-top-text">
+        At Clarero, we develop games that are not only fun to play but also
+        groundbreaking in their design. Whether you’re embarking on a space
+        odyssey, engaging in strategic combat, or building your own futuristic
+        empire, our games are designed to transport you to the farthest reaches
+        of the universe.
+      </p>
+      <div class="games-swiper-container">
+        <ul class="swiper-wrapper games-swiper-wrapper">
+          <li class="swiper-slide games-slide">
+            <h3 class="games-slide-title">Galactic Nexus</h3>
+            <p class="games-slide-text">
+              Galactic Nexus is a large-scale space exploration game where
+              players take control of a starship, trade across galaxies, engage
+              in interstellar wars, and uncover the mysteries of an ancient
+              alien civilization. Players can form alliances, create factions,
+              and explore procedurally generated planets.
+            </p>
+            <p class="games-slide-features-text">Key Features:</p>
+            <ul class="games-slide-features-list">
+              <li class="games-features-item">
+                <p class="games-features-item-text">
+                  Open-world space exploration
+                </p>
+              </li>
+              <li class="games-features-item">
+                <p class="games-features-item-text">
+                  Faction-building and diplomacy
+                </p>
+              </li>
+              <li class="games-features-item">
+                <p class="games-features-item-text">
+                  Real-time space combat and strategic warfare
+                </p>
+              </li>
+            </ul>
+            <picture>
+              <source
+                srcset="/clarero/assets/games-img1-desk-1ec1cff6.png "
+                media="(min-width: 1440px)"
+                width="567"
+                height="378" />
+              <source
+                srcset="/clarero/assets/games-img1-mob-2ac96d7a.png "
+                width="311"
+                height="207" />
+              <img
+                class="games-img"
+                src="/clarero/assets/games-img1-mob-2ac96d7a.png"
+                alt="Screenshot of the game"
+                width="311"
+                height="207"
+                loading="lazy"
+            /></picture>
+            <p class="games-slide-platform-text">Platform: PC / Console</p>
+            <a class="games-slide-link" href="#contact"
+              >Visit Galactic Nexus Website
+              <svg class="arrow-icon" width="7" height="14">
+                <use href="/clarero/assets/sprite-bab1439f.svg#icon-link-arrow"></use></svg
+            ></a>
+          </li>
+          <li class="swiper-slide games-slide">
+            <h3 class="games-slide-title">Quantum Shift</h3>
+            <p class="games-slide-text">
+              Quantum Shift is a virtual reality action game set in a futuristic
+              dystopian world. Players use advanced tech to shift between
+              dimensions and fight off enemies, solve puzzles, and uncover
+              secrets within an ever-changing environment. The game’s innovative
+              mechanics allow players to manipulate the laws of physics in
+              real-time.
+            </p>
+            <p class="games-slide-features-text">Key Features:</p>
+            <ul class="games-slide-features-list">
+              <li class="games-features-item">
+                <p class="games-features-item-text">
+                  Dimension-shifting gameplay mechanics
+                </p>
+              </li>
+              <li class="games-features-item">
+                <p class="games-features-item-text">
+                  Immersive VR environments
+                </p>
+              </li>
+              <li class="games-features-item">
+                <p class="games-features-item-text">
+                  Story-driven missions with impactful decisions
+                </p>
+              </li>
+            </ul>
+            <picture>
+              <source
+                srcset="/clarero/assets/games-img2-desk-da4aa8f6.png "
+                media="(min-width: 1440px)"
+                width="567"
+                height="378" />
+              <source
+                srcset="/clarero/assets/games-img2-mob-fe9f1524.png "
+                width="311"
+                height="207" />
+              <img
+                class="games-img"
+                src="/clarero/assets/games-img2-mob-fe9f1524.png"
+                alt="Screenshot of the game"
+                width="311"
+                height="207"
+                loading="lazy"
+            /></picture>
+            <p class="games-slide-platform-text">Platform: PC / VR</p>
+            <a class="games-slide-link" href="#contact"
+              >Visit Quantum Shift Website
+              <svg class="arrow-icon" width="7" height="14">
+                <use href="/clarero/assets/sprite-bab1439f.svg#icon-link-arrow"></use></svg
+            ></a>
+          </li>
+          <li class="swiper-slide games-slide">
+            <h3 class="games-slide-title">Nebula’s Edge</h3>
+            <p class="games-slide-text">
+              Nebula’s Edge is a space-based strategy game that allows players
+              to build colonies, manage resources, and defend their territory
+              from alien invaders. The game offers a mix of real-time strategy
+              and resource management, set in a visually stunning galaxy.
+            </p>
+            <p class="games-slide-features-text">Key Features:</p>
+            <ul class="games-slide-features-list">
+              <li class="games-features-item">
+                <p class="games-features-item-text">
+                  Strategic space combat and colony management
+                </p>
+              </li>
+              <li class="games-features-item">
+                <p class="games-features-item-text">
+                  Multiplayer battles and alliances
+                </p>
+              </li>
+              <li class="games-features-item">
+                <p class="games-features-item-text">
+                  Detailed economic systems and resource production
+                </p>
+              </li>
+            </ul>
+            <picture>
+              <source
+                srcset="/clarero/assets/games-img3-desk-5ab1c2cf.png "
+                media="(min-width: 1440px)"
+                width="567"
+                height="378" />
+              <source
+                srcset="/clarero/assets/games-img3-mob-ccb439a6.png "
+                width="311"
+                height="207" />
+              <img
+                class="games-img"
+                src="/clarero/assets/games-img3-mob-ccb439a6.png"
+                alt="Screenshot of the game"
+                width="311"
+                height="207"
+                loading="lazy"
+            /></picture>
+            <p class="games-slide-platform-text">
+              Platform: Mobile (iOS, Android)
+            </p>
+            <a class="games-slide-link" href="#contact"
+              >Visit Nebula’s Edge Website
+              <svg class="arrow-icon" width="7" height="14">
+                <use href="/clarero/assets/sprite-bab1439f.svg#icon-link-arrow"></use></svg
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="dots">
+        <div class="games-dot active"></div>
+        <div class="games-dot"></div>
+        <div class="games-dot"></div>
+      </div>
+      <div class="controls">
+        <button
+          class="arrow-btn"
+          id="gamesLeftArrow"
+          aria-label="Previous slide"
+        >
+          <svg class="arrow-icon" width="50" height="50">
+            <use href="/clarero/assets/sprite-bab1439f.svg#icon-left-arrow"></use>
+          </svg>
+        </button>
+        <button class="arrow-btn" id="gamesRightArrow" aria-label="Next slide">
+          <svg class="arrow-icon" width="50" height="50">
+            <use href="/clarero/assets/sprite-bab1439f.svg#icon-right-arrow"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section technology-section" id="technology">
+  <div class="technology-bg-wrapper">
+    <div class="container technology-container">
+      <h2 class="section-title technology-title">Powered by the Future</h2>
+      <div class="technology-content-wrapper">
+        <p class="technology-top-text">
+          At Clarero, we believe that the best games are built with the best
+          technology. We use cutting-edge tools and engines to ensure our games
+          are as immersive and dynamic as possible.
+        </p>
+        <p class="games-subtitle">Technologies We Use:</p>
+        <ul class="technology-list">
+          <li class="technology-list-item">
+            <p class="technology-item-title">Unreal Engine 5</p>
+            <p class="technology-item-text">
+              For ultra-realistic environments, dynamic lighting, and cinematic
+              gameplay.
+            </p>
+          </li>
+          <li class="technology-list-item">
+            <p class="technology-item-title">Procedural Generation</p>
+            <p class="technology-item-text">
+              To create massive, ever-evolving worlds with infinite
+              possibilities.
+            </p>
+          </li>
+          <li class="technology-list-item">
+            <p class="technology-item-title">AI Systems</p>
+            <p class="technology-item-text">
+              Complex decision-making, adaptive NPCs, and real-time story
+              progression.
+            </p>
+          </li>
+          <li class="technology-list-item">
+            <p class="technology-item-title">Ray Tracing & Lumen</p>
+            <p class="technology-item-text">
+              To deliver high-fidelity visuals, lighting, and reflections in
+              every game.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section process-section" id="process">
+  <div class="process-bg-wrapper">
+    <div class="container process-container">
+      <h2 class="section-title process-title">How We Build Games</h2>
+      <div class="process-content-wrapper">
+        <p class="process-top-text">
+          Our development process ensures we deliver only the most engaging and
+          technologically advanced games. Here’s a breakdown of how we build our
+          games:
+        </p>
+        <div class="process-list-wrapper">
+          <img
+            class="process-line-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAImCAYAAABaTwr4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGwSURBVHgB7drLccIwEABQJRVQQkqgBJeUDpIOoANoIZWQDnAHlEAkf2UTEXvgkMNbjYYBe59WtrhtCPO4hirOfZznOPtxivMQ51soxjVs4txlSaWxa+79JfnU3XCJ87OpZLy+jfM4q2iTA/3K57tlpmvj1nb5j/0oJ0+RS3d/FbLSDmFptFu8Ng872/t2BVD1W35pPlK8xLEmurzX8GAkoB7KWr56v93vBHx1X6qwPN57IH8glxWvcfba27O/9iDt8wv5UW7PRP5a2yo/sgM0O8ojsg9//5n2t8m3ZR5nFZ27xCqsij79TjzlIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgWUDeBTL+pgvkFtEFkkUC6qGs5avrAtEFAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIASoImjnDxFNHFkkYB6KGv56po4NHEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoARo4ignTxFNHFkkoB7KWr66Jg5NHAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACA8GAAAoAbpAyslTRBdIFgmoh7KWr64L5F91gfwA1ue0qNPQbN4AAAAASUVORK5CYII="
+            alt="Line"
+            width="16"
+            height="550"
+            loading="lazy"
+          />
+          <ul class="process-list">
+            <li class="process-list-item">
+              <p class="process-item-title">Concept & Worldbuilding:</p>
+              <p class="process-item-text">
+                Every project begins with brainstorming and worldbuilding. We
+                develop the story, mechanics, and environments that will form
+                the backbone of the game.
+              </p>
+            </li>
+            <li class="process-list-item">
+              <p class="process-item-title">Prototyping & Testing:</p>
+              <p class="process-item-text">
+                We test initial gameplay mechanics and world designs, refining
+                them based on player feedback and testing results.
+              </p>
+            </li>
+            <li class="process-list-item">
+              <p class="process-item-title">Design & Production:</p>
+              <p class="process-item-text">
+                In this phase, we fully develop the game’s systems, assets, and
+                environments, integrating them into the game world.
+              </p>
+            </li>
+            <li class="process-list-item">
+              <p class="process-item-title">Optimization & QA Testing:</p>
+              <p class="process-item-text">
+                We ensure that our games run smoothly across all platforms,
+                performing extensive bug testing and gameplay balancing.
+              </p>
+            </li>
+            <li class="process-list-item">
+              <p class="process-item-title">Launch & Post-Launch Support:</p>
+              <p class="process-item-text">
+                After launch, we continue to update the game, release content
+                expansions, and address player feedback to keep the experience
+                fresh.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="testimonials-section section" id="testimonials">
+  <div class="testimonials-section-wrapper">
+    <div class="container testimonials-container">
+      <h2 class="testimonials-title section-title">What Players Are Saying</h2>
+      <p class="testimonials-top-text">
+        Here’s what players are saying about our games:
+      </p>
+      <ul class="testimonials-list">
+        <li class="testimonials-list-item">
+          <picture>
+            <source
+              srcset="/clarero/assets/testimonials-luke-desk-afb51e41.png "
+              media="(min-width: 1440px)"
+              width="296"
+              height="181" />
+            <source
+              srcset="/clarero/assets/testimonials-luke-mob-7195563b.png "
+              width="340"
+              height="181" />
+            <img
+              class="testimonials-img"
+              src="/clarero/assets/testimonials-luke-mob-7195563b.png"
+              alt="Testimonial"
+              width="340"
+              height="181"
+              loading="lazy"
+          /></picture>
+        </li>
+        <li class="testimonials-list-item">
+          <picture>
+            <source
+              srcset="/clarero/assets/testimonials-sarah-desk-09cb517c.png "
+              media="(min-width: 1440px)"
+              width="296"
+              height="181" />
+            <source
+              srcset="/clarero/assets/testimonials-sarah-mob-600956fe.png "
+              width="340"
+              height="181" />
+            <img
+              class="testimonials-img"
+              src="/clarero/assets/testimonials-sarah-mob-600956fe.png"
+              alt="Testimonial"
+              width="340"
+              height="181"
+              loading="lazy"
+          /></picture>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section partners-section" id="partners">
+  <div class="partners-bg-wrapper">
+    <div class="container partners-container">
+      <h2 class="section-title partners-title">Our Partners & Collaborators</h2>
+      <p class="partners-top-text">
+        We are proud to work with a number of trusted partners who help us
+        create the best gaming experiences. These collaborations enhance the
+        quality of our games, expand our creative capabilities, and bring new
+        ideas to life.
+      </p>
+      <div class="partners-list-wrapper">
+        <p class="partners-subtitle">Our Key Partners:</p>
+        <ul class="partners-list">
+          <li class="partners-list-item">
+            <p class="partners-item-title">Rust LTD</p>
+            <a
+              href="https://rustltd.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="partners-itm-link"
+              >Visit Rust LTD</a
+            >
+            <p class="partners-item-text">
+              Experts in server hosting and cloud gaming technologies.
+            </p>
+          </li>
+          <li class="partners-list-item">
+            <p class="partners-item-title">Monomi Park</p>
+            <a
+              href="https://monomipark.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="partners-itm-link"
+              >Visit Monomi Park</a
+            >
+            <p class="partners-item-text">
+              Creators of Slime Rancher, collaborating with us on interactive,
+              playful world-building.
+            </p>
+          </li>
+          <li class="partners-list-item">
+            <p class="partners-item-title">Warbits</p>
+            <a
+              href="https://warbits.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="partners-itm-link"
+              >Visit Warbits</a
+            >
+            <p class="partners-item-text">
+              Game developers specializing in strategy-based gameplay systems.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section faq-section" id="faq">
+  <div class="faq-bg-wrapper">
+    <div class="container faq-container">
+      <h2 class="section-title faq-title">Frequently Asked Questions</h2>
+      <p class="faq-top-text">
+        Have any questions? Check out our most commonly asked questions below:
+      </p>
+      <ul class="faq-list">
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text"
+              >What platforms do you develop games for?</span
+            >
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="16" height="16">
+                <use href="/clarero/assets/sprite-bab1439f.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            We develop for PC, mobile (iOS, Android), and VR.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text"
+              >How can I participate in beta testing?</span
+            >
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="16" height="16">
+                <use href="/clarero/assets/sprite-bab1439f.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            Stay updated by following our social media for beta testing
+            announcements.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text">What types of games do you make?</span>
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="16" height="16">
+                <use href="/clarero/assets/sprite-bab1439f.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            We specialize in action-adventure and sci-fi strategy games, with
+            both single-player and multiplayer modes.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text">How do I contact customer support?</span>
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="16" height="16">
+                <use href="/clarero/assets/sprite-bab1439f.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            You can reach us at
+            <a class="faq-link" href="mailto:support@clarado.space"
+              >support@clarero.space</a
+            >.
+          </p>
+        </li>
+        <li class="faq-list-item">
+          <button class="faq-top-text-btn">
+            <span class="faq-btn-text"
+              >Will you be releasing new games soon?</span
+            >
+            <span class="faq-toggle-symbol"
+              ><svg class="faq-icon" width="16" height="16">
+                <use href="/clarero/assets/sprite-bab1439f.svg#icon-plus"></use></svg
+            ></span>
+          </button>
+          <p class="faq-bottom-text">
+            Yes! Check out our upcoming titles on the "Our Games" section for
+            more details.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section contact-section" id="contact">
+  <div class="contact-bg-wrapper">
+    <div class="container contact-container">
+      <h2 class="section-title contact-title">Contact Clarero</h2>
+      <p class="contact-top-text">
+        If you have questions, suggestions, or want to discuss potential
+        collaborations, we’d love to hear from you!
+      </p>
+      <p class="contact-subtitle">Contact Info:</p>
+      <div class="contact-link-wrapper">
+        <a href="mailto:info@clarero.space" class="contact-link"
+          >Email: info@clarero.space</a
+        >
+        <a href="tel:+18005551234" class="contact-link"
+          >Phone: +1 (800) 555-1234</a
+        >
+        <a href="" class="contact-link">Live Chat: Available on the website</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="footer-bg-wrapper">
+    <div class="container footer-container">
+      <div class="footer-content-wrapper">
+        <ul class="footer-top-link-wrapper">
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-top-link"
+              >Instagram:
+              <span class="footer-link-span">@clarero_games</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-top-link"
+              >GitHub: <span class="footer-link-span">clarero-games</span></a
+            >
+          </li>
+        </ul>
+        <nav class="footer-nav">
+          <div class="footer-list">
+            <div class="footer-list-item">
+              <a class="footer-link" href="./privacy-policy.html"
+                >Privacy Policy</a
+              >
+            </div>
+            <div class="footer-slash">|</div>
+            <div class="footer-list-item">
+              <a class="footer-link" href="./terms-and-conditions.html"
+                >Terms & Conditions</a
+              >
+            </div>
+            <div class="footer-slash">|</div>
+            <div class="footer-list-item">
+              <a class="footer-link" href="./cookies-policy.html">Cookies</a>
+            </div>
+          </div>
+        </nav>
+        <p class="footer-text">© 2025 Clarero Games LLC. All rights reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="context-menu">
+  <nav class="context-nav">
+    <ul class="context-nav-list">
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#home">Hero</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#about">About</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#games">Games</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#technology"
+          >Technology</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#process"
+          >Development Process</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#testimonials"
+          >Testimonials</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#partners">Partners</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#faq">FAQ</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#contact">Contact Us</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <div class="cookie-banner-content-wrapper">
+    <p class="cookie-banner-text">
+      We use cookies to improve your experience on our website. By browsing this
+      website, you agree to our use of cookies.
+    </p>
+    <div class="cookie-banner-buttons">
+      <button class="cookie-decline-btn" id="cookie-decline">
+        DECLINE COOKIES
+      </button>
+      <button class="cookie-accept-btn" id="cookie-accept">
+        ACCEPT COOKIES
+      </button>
+    </div>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>
