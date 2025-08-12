@@ -13,7 +13,7 @@ gamesSwiper = new Swiper('.games-swiper-container', {
   grabCursor: true,
   slidesPerView: 1,
   initialSlide: 0,
-  spaceBetween: 46,
+  spaceBetween: 16,
   grabCursor: true,
   allowTouchMove: true,
   speed: 500,
@@ -23,7 +23,7 @@ gamesSwiper = new Swiper('.games-swiper-container', {
   },
   breakpoints: {
     1440: {
-      spaceBetween: 22,
+      spaceBetween: 32,
       slidesPerView: 1,
     },
   },

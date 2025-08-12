@@ -20,10 +20,10 @@
     padding: 20px 0;
     background-image: linear-gradient(
         90deg,
-        #001c1c 25.57%,
-        rgba(0, 28, 28, 0.6) 54.7%,
-        rgba(0, 28, 28, 0.4) 78.41%,
-        rgba(0, 23, 23, 0) 99.72%
+        #001c1c 0%,
+        rgba(0, 28, 28, 0.7) 28.74%,
+        rgba(0, 28, 28, 0.6) 45.21%,
+        rgba(0, 23, 23, 0) 58.17%
       ),
       url(../img/hero/hero-bg-desk.jpg);
   }
@@ -91,7 +91,6 @@
     position: relative;
 
     &:hover,
-    &:active,
     &.active {
       box-shadow: 0 4px 7px 0 rgba(255, 255, 255, 0.1);
       background: rgba(0, 255, 0, 0.2);

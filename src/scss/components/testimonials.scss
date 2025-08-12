@@ -3,23 +3,26 @@
 
 .testimonials-section-wrapper {
   padding-top: 56px;
-  padding-bottom: 113px;
+  padding-bottom: 104px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/testimonials/testimonials-bg-mob.png);
+  background-image: linear-gradient(rgba(0, 28, 28, 0.7), rgba(0, 28, 28, 0.7)),
+    url(../img/testimonials/testimonials-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: auto;
 
   @include media(desktop) {
-    padding-top: 56px;
-    padding-bottom: 129px;
+    padding-top: 86px;
+    padding-bottom: 148px;
     max-width: 1440px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(../img/testimonials/testimonials-bg-desk.png);
+    background-image: linear-gradient(
+        rgba(0, 28, 28, 0.7),
+        rgba(0, 28, 28, 0.7)
+      ),
+      url(../img/testimonials/testimonials-bg-desk.jpg);
   }
 }
 
@@ -29,23 +32,21 @@
 }
 
 .testimonials-top-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.4;
+  font-size: 18px;
+  line-height: 1.55556;
+  text-align: center;
   color: #fff;
   margin-bottom: 42px;
 
   @include media(desktop) {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 1.27273;
-    text-align: center;
+    font-size: 20px;
+    line-height: 1.4;
     max-width: 404px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 32px;
+    margin-bottom: 81px;
   }
 }
 
@@ -53,12 +54,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 42px;
+  gap: 32px;
 
   @include media(desktop) {
     flex-direction: row;
     justify-content: center;
-    gap: 39px;
   }
 }
 

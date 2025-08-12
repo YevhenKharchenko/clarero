@@ -1,22 +1,18 @@
 .faq-section {
+  background: #fff;
 }
 
 .faq-bg-wrapper {
   padding-top: 56px;
-  padding-bottom: 78px;
+  padding-bottom: 116px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/faq/faq-bg-mob.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: auto;
 
   @include media(desktop) {
-    padding-top: 56px;
-    padding-bottom: 134px;
+    padding-top: 86px;
+    padding-bottom: 132px;
     max-width: 1440px;
-    background-image: url(../img/faq/faq-bg-desk.png);
   }
 }
 
@@ -24,20 +20,24 @@
 }
 
 .faq-title {
+  color: #212121;
 }
 
 .faq-top-text {
-  font-family: 'Bebas Neue', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
-  margin-bottom: 32px;
+  color: #000;
+  margin-bottom: 42px;
 
   @include media(desktop) {
-    font-size: 22px;
-    margin-bottom: 80px;
+    font-size: 20px;
+    max-width: 837px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 44px;
   }
 }
 
@@ -49,17 +49,16 @@
   gap: 16px;
 
   @include media(desktop) {
-    gap: 16px;
+    gap: 32px;
   }
 }
 
 .faq-list-item {
   background: #fff;
-  border-radius: 36px;
-  border: 1px solid #ff6a00;
+  border: 1px solid #016d01;
   border-radius: 12px;
-  padding: 14px 16px;
-  max-width: 346px;
+  padding: 16px;
+  max-width: 343px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -86,10 +85,10 @@
 }
 
 .faq-toggle-symbol {
-  background: #ff6a00;
+  background: #016d01;
   border-radius: 100px;
-  min-width: 44px;
-  height: 44px;
+  min-width: 40px;
+  height: 40px;
 
   @include media(desktop) {
     min-width: 36px;
@@ -102,15 +101,15 @@
 
 .faq-btn-text {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.2;
-  letter-spacing: -0.03em;
   color: #361b14;
-  max-width: 256px;
   text-align: left;
+  max-width: 253px;
 
   @include media(desktop) {
+    letter-spacing: -0.03em;
     max-width: max-content;
   }
 }
@@ -118,24 +117,26 @@
 .faq-bottom-text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.6;
-  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #000;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   opacity: 0;
 
   @include media(desktop) {
+    line-height: 1.6;
   }
 }
 
 .is-visible {
-  margin-top: 24px;
+  margin-top: 16px;
   max-height: 500px;
   opacity: 1;
 
   @include media(desktop) {
+    margin-top: 10px;
     max-height: 100px;
   }
 }
@@ -145,10 +146,9 @@
 }
 
 .faq-list-item.faq-open {
-  background: rgba(255, 106, 0, 0.3);
-  border: 3px solid #ff6a00;
+  background: rgba(0, 255, 0, 0.3);
+  border: 3px solid #016d01;
 }
 
 .faq-list-item.faq-open .faq-btn-text {
-  color: #fff;
 }

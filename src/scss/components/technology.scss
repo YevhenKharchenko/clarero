@@ -1,0 +1,129 @@
+.technology-section {
+}
+
+.technology-bg-wrapper {
+  padding-top: 56px;
+  padding-bottom: 128px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(rgba(0, 28, 28, 0.7), rgba(0, 28, 28, 0.7)),
+    url(../img/technology/technology-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
+
+  @include media(desktop) {
+    padding-top: 86px;
+    padding-bottom: 310px;
+    max-width: 1440px;
+    background-image: linear-gradient(
+        rgba(0, 28, 28, 0.7),
+        rgba(0, 28, 28, 0.7)
+      ),
+      url(../img/technology/technology-bg-desk.jpg);
+  }
+}
+
+.technology-container {
+}
+
+.technology-title {
+}
+
+.technology-content-wrapper {
+  @include media(desktop) {
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.technology-top-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 42px;
+
+  @include media(desktop) {
+    max-width: 407px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 42px;
+  }
+}
+
+.games-subtitle {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 42px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    margin-bottom: 49px;
+  }
+}
+
+.technology-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    gap: 32px;
+  }
+}
+
+.technology-list-item {
+  background: rgba(0, 255, 0, 0.05);
+  border: 1px solid #0f0;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  max-width: 164px;
+  min-height: 193px;
+
+  @include media(desktop) {
+    padding: 24px;
+    max-width: 186px;
+  }
+}
+
+.technology-item-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #0f0;
+
+  @include media(desktop) {
+    text-align: left;
+  }
+}
+
+.technology-item-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+
+  @include media(desktop) {
+    text-align: left;
+  }
+}

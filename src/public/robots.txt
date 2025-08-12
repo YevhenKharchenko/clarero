@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://clarado.site/sitemap.xml
+Sitemap: https://clarero.space/sitemap.xml
